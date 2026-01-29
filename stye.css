@@ -1,0 +1,256 @@
+.init{
+    
+    position: absolute;
+    background-color: rgb(5, 51, 82);
+    width: 100%;
+    height: 100vh;
+}
+
+.side{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    
+    
+}
+.empty{
+    color: red;
+    font-family: "Press Start 2P", system-ui;
+    position: absolute;
+    top:370px;
+}
+
+.leadhead{
+    height: 40px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px;
+    color: antiquewhite;
+    margin-bottom: 0px;
+}
+table{
+    text-align: center;
+}
+.lead{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+td{
+   padding-left: 40px;
+   font-family: "Press Start 2P", system-ui;
+   color: antiquewhite;
+   text-transform: uppercase;
+   padding-bottom: 10px;
+    word-wrap: break-word;
+  word-break: break-word;
+   max-width: 300px;
+   min-width: 50px;
+}
+#gay{
+    min-width: 40px;
+    padding-left: 0px;
+}
+.play{
+    height: 70px;
+    width: 250px;
+    border-radius: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    font-family: "Press Start 2P", system-ui;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.detin{
+    height: 50px;
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+}
+.mainhead{
+    height: 40px;
+    margin: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 50px;
+    color: antiquewhite;
+}
+.level{
+    position: absolute;
+    bottom: 20px;
+}
+.msg{
+    height: 20%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 20px;
+    color: antiquewhite;
+}
+h2{
+    height: 20%;
+    margin: 0px;
+    display: inline;
+    padding: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 20px;
+    color: antiquewhite;
+}a {
+    text-decoration: none;
+    color: inherit;
+}
+svg{
+    height: 30px;
+    width: 30px;
+}
+h1{
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    
+}
+body{
+    background-color: rgb(5, 51, 82);
+    height: 100vh;
+    margin: 0px;
+}
+.tiles{
+    width: 470px;
+}
+.tile{
+    
+    display: inline-block;
+    height: 190px;
+    width: 190px;
+    margin: 10px;
+    background-color: black;
+    border: solid 10px black;
+    border-radius: 40px;
+    
+}
+.filler{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(5, 51, 82);
+}
+.hrftr{
+    background-color: rgb(5, 51, 82);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+.footer{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
+    bottom:-1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+    color: antiquewhite;
+    
+}
+.red{
+    background-color: red;
+    
+}
+.green{
+    background-color: rgb(71, 255, 47);
+}
+.blue{
+    background-color: rgb(0, 89, 255);
+}
+.yellow{
+    background-color: yellow;
+}
+
+@media(max-width:500px){
+    td{
+        font-size: 15px;
+    }
+    #sc{
+        padding-left: 5px;
+        min-width: 70px;
+    }
+    #nam{
+        padding-left: 5px;
+    }
+    .leadhead{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .tile{
+        height: 150px;
+        width: 150px;
+    }
+    .tiles{
+        width: 390px;
+    }
+}
+
+@media(max-width:400px){
+    .leadhead{
+        font-size: 20px;
+        padding-bottom: 0px;
+    }   
+    .tile{
+        height: 150px;
+        width: 150px;
+        margin: 6px;
+    }
+    .tiles{
+        width: 372px;
+    }
+    .high{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+
+}
+@media(max-width:368px){
+    .tile{
+        height: 145px;
+        width: 145px;
+        margin: 2px;
+    }
+    .tiles{
+        width: 346px;
+    }
+    .footer{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}
+
